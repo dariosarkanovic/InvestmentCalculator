@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./Form.module.css";
-//comment
+
 const Form = (props) => {
     const [currentSavings, setCurrentSavings] = useState("");
     const [yearlyContribution, setYearlyContribution] = useState("");
